@@ -1,0 +1,28 @@
+{
+  "os":  "Linux-5.15.153.1-microsoft-standard-WSL2-aarch64-with-glibc2.39",
+  "python":  "CPython 3.10.16",
+  "startedAt":  "2025-02-05T02:37:17.788031Z",
+  "program":  "LISS3_Project/250120_LISS3.ipynb",
+  "git":  {
+    "commit":  "1667b12f782784b298efc84116938dda567eb926"
+  },
+  "email":  "vbansal2105@gmail.com",
+  "root":  "/home/user/LISS3_Project",
+  "host":  "VB1337X",
+  "executable":  "/home/user/miniforge3/envs/myenv/bin/python3.10",
+  "cpu_count":  12,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "1081101176832",
+      "used":  "138433855488"
+    }
+  },
+  "memory":  {
+    "total":  "33275637760"
+  },
+  "cpu":  {
+    "count":  12,
+    "countLogical":  12
+  }
+}

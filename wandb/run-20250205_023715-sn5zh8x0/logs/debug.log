@@ -1,0 +1,111 @@
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_setup.py:_flush():68] Current SDK version is 0.19.5
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_setup.py:_flush():68] Configure stats pid to 20157
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_setup.py:_flush():68] Loading settings from /home/user/.config/wandb/settings
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_setup.py:_flush():68] Loading settings from /home/user/LISS3_Project/wandb/settings
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_023715-sn5zh8x0/logs/debug.log
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_023715-sn5zh8x0/logs/debug-internal.log
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0xffb290f615d0>
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_init.py:init():756] calling init triggers
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 02:37:15,858 INFO    MainThread:20157 [wandb_init.py:init():789] starting backend
+2025-02-05 02:37:17,779 INFO    MainThread:20157 [wandb_init.py:init():793] sending inform_init request
+2025-02-05 02:37:17,787 INFO    MainThread:20157 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-02-05 02:37:17,787 INFO    MainThread:20157 [wandb_init.py:init():808] backend started and connected
+2025-02-05 02:37:17,791 INFO    MainThread:20157 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-05 02:37:17,791 INFO    MainThread:20157 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-02-05 02:37:17,791 INFO    MainThread:20157 [wandb_init.py:init():901] updated telemetry
+2025-02-05 02:37:17,798 INFO    MainThread:20157 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-05 02:37:18,645 INFO    MainThread:20157 [wandb_init.py:init():984] starting run threads in backend
+2025-02-05 02:37:19,135 INFO    MainThread:20157 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-05 02:37:19,136 INFO    MainThread:20157 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-05 02:37:19,136 INFO    MainThread:20157 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-05 02:37:19,136 INFO    MainThread:20157 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-05 02:37:19,142 INFO    MainThread:20157 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-05 02:37:19,142 INFO    MainThread:20157 [wandb_watch.py:_watch():71] Watching
+2025-02-05 02:37:19,936 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:37:19,937 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:39:03,825 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:39:14,673 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_023914-remvvlgj/logs/debug.log
+2025-02-05 02:39:14,673 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_023914-remvvlgj/logs/debug-internal.log
+2025-02-05 02:39:14,673 INFO    MainThread:20157 [wandb_init.py:init():756] calling init triggers
+2025-02-05 02:39:14,673 INFO    MainThread:20157 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 02:39:14,673 INFO    MainThread:20157 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-05 02:39:14,673 INFO    MainThread:20157 [wandb_watch.py:_watch():71] Watching
+2025-02-05 02:39:20,726 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:39:20,727 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:42:24,016 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:42:28,781 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_024228-azaoxf7e/logs/debug.log
+2025-02-05 02:42:28,781 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_024228-azaoxf7e/logs/debug-internal.log
+2025-02-05 02:42:28,781 INFO    MainThread:20157 [wandb_init.py:init():756] calling init triggers
+2025-02-05 02:42:28,781 INFO    MainThread:20157 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 02:42:28,781 INFO    MainThread:20157 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-05 02:42:28,782 INFO    MainThread:20157 [wandb_watch.py:_watch():71] Watching
+2025-02-05 02:42:29,245 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:42:29,245 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:43:33,470 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:43:41,616 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_024341-wf7z0bi7/logs/debug.log
+2025-02-05 02:43:41,616 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_024341-wf7z0bi7/logs/debug-internal.log
+2025-02-05 02:43:41,617 INFO    MainThread:20157 [wandb_init.py:init():756] calling init triggers
+2025-02-05 02:43:41,617 INFO    MainThread:20157 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 02:43:41,617 INFO    MainThread:20157 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-05 02:43:41,617 INFO    MainThread:20157 [wandb_watch.py:_watch():71] Watching
+2025-02-05 02:43:42,127 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:43:42,128 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:50:16,904 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:50:16,917 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:50:16,918 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:50:16,560 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:50:25,424 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_025025-uycizs4c/logs/debug.log
+2025-02-05 02:50:25,424 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_025025-uycizs4c/logs/debug-internal.log
+2025-02-05 02:50:25,424 INFO    MainThread:20157 [wandb_init.py:init():756] calling init triggers
+2025-02-05 02:50:25,424 INFO    MainThread:20157 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 02:50:25,424 INFO    MainThread:20157 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-05 02:50:25,425 INFO    MainThread:20157 [wandb_watch.py:_watch():71] Watching
+2025-02-05 02:50:31,883 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:50:31,885 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:51:39,534 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:51:47,176 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_025147-aou7hwb8/logs/debug.log
+2025-02-05 02:51:47,176 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_025147-aou7hwb8/logs/debug-internal.log
+2025-02-05 02:51:47,176 INFO    MainThread:20157 [wandb_init.py:init():756] calling init triggers
+2025-02-05 02:51:47,177 INFO    MainThread:20157 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 02:51:47,177 INFO    MainThread:20157 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-05 02:51:47,177 INFO    MainThread:20157 [wandb_watch.py:_watch():71] Watching
+2025-02-05 02:51:47,991 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:51:47,992 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:52:16,138 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:52:16,269 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:52:16,269 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:53:32,310 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:53:33,033 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_025333-svekfpfm/logs/debug.log
+2025-02-05 02:53:33,033 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_025333-svekfpfm/logs/debug-internal.log
+2025-02-05 02:53:33,033 INFO    MainThread:20157 [wandb_init.py:init():756] calling init triggers
+2025-02-05 02:53:33,033 INFO    MainThread:20157 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 02:53:33,033 INFO    MainThread:20157 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-05 02:53:33,033 INFO    MainThread:20157 [wandb_watch.py:_watch():71] Watching
+2025-02-05 02:53:34,199 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:53:34,200 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:56:07,364 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:56:07,373 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:56:07,374 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:56:27,588 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:56:27,594 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:56:27,594 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 02:56:23,488 INFO    MainThread:20157 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 02:56:29,426 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_025629-y8i675kp/logs/debug.log
+2025-02-05 02:56:29,426 INFO    MainThread:20157 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_025629-y8i675kp/logs/debug-internal.log
+2025-02-05 02:56:29,426 INFO    MainThread:20157 [wandb_init.py:init():756] calling init triggers
+2025-02-05 02:56:29,426 INFO    MainThread:20157 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 02:56:29,426 INFO    MainThread:20157 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-05 02:56:29,427 INFO    MainThread:20157 [wandb_watch.py:_watch():71] Watching
+2025-02-05 02:59:30,120 INFO    MainThread:20157 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 02:59:30,137 INFO    MainThread:20157 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 03:00:25,301 WARNING MsgRouterThr:20157 [router.py:message_loop():75] message_loop has been closed

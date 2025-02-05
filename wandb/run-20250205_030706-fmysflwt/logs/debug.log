@@ -1,0 +1,32 @@
+2025-02-05 03:07:06,768 INFO    MainThread:154671 [wandb_setup.py:_flush():68] Current SDK version is 0.19.5
+2025-02-05 03:07:06,768 INFO    MainThread:154671 [wandb_setup.py:_flush():68] Configure stats pid to 154671
+2025-02-05 03:07:06,768 INFO    MainThread:154671 [wandb_setup.py:_flush():68] Loading settings from /home/user/.config/wandb/settings
+2025-02-05 03:07:06,768 INFO    MainThread:154671 [wandb_setup.py:_flush():68] Loading settings from /home/user/LISS3_Project/wandb/settings
+2025-02-05 03:07:06,768 INFO    MainThread:154671 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-05 03:07:06,768 INFO    MainThread:154671 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /home/user/LISS3_Project/wandb/run-20250205_030706-fmysflwt/logs/debug.log
+2025-02-05 03:07:06,769 INFO    MainThread:154671 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /home/user/LISS3_Project/wandb/run-20250205_030706-fmysflwt/logs/debug-internal.log
+2025-02-05 03:07:06,769 INFO    MainThread:154671 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0xffed4083f760>
+2025-02-05 03:07:06,769 INFO    MainThread:154671 [wandb_init.py:init():756] calling init triggers
+2025-02-05 03:07:06,769 INFO    MainThread:154671 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'weight_decay': 1e-05, '_wandb': {}}
+2025-02-05 03:07:06,769 INFO    MainThread:154671 [wandb_init.py:init():789] starting backend
+2025-02-05 03:07:06,994 INFO    MainThread:154671 [wandb_init.py:init():793] sending inform_init request
+2025-02-05 03:07:06,997 INFO    MainThread:154671 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-02-05 03:07:06,998 INFO    MainThread:154671 [wandb_init.py:init():808] backend started and connected
+2025-02-05 03:07:07,002 INFO    MainThread:154671 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-05 03:07:07,003 INFO    MainThread:154671 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-02-05 03:07:07,003 INFO    MainThread:154671 [wandb_init.py:init():901] updated telemetry
+2025-02-05 03:07:07,008 INFO    MainThread:154671 [wandb_init.py:init():926] communicating run to backend with 90.0 second timeout
+2025-02-05 03:07:07,892 INFO    MainThread:154671 [wandb_init.py:init():984] starting run threads in backend
+2025-02-05 03:07:08,160 INFO    MainThread:154671 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-05 03:07:08,161 INFO    MainThread:154671 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-05 03:07:08,161 INFO    MainThread:154671 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-05 03:07:08,161 INFO    MainThread:154671 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-05 03:07:08,163 INFO    MainThread:154671 [wandb_init.py:init():1026] run started, returning control to user process
+2025-02-05 03:07:08,163 INFO    MainThread:154671 [wandb_watch.py:_watch():71] Watching
+2025-02-05 13:05:24,278 INFO    MainThread:154671 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 13:05:24,282 INFO    MainThread:154671 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 13:05:32,083 INFO    MainThread:154671 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-05 13:05:33,826 INFO    MainThread:154671 [jupyter.py:_save_ipynb():397] looking for notebook: LISS3_Project/250120_LISS3.ipynb
+2025-02-05 13:05:33,826 INFO    MainThread:154671 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-05 13:06:08,070 WARNING MsgRouterThr:154671 [router.py:message_loop():75] message_loop has been closed

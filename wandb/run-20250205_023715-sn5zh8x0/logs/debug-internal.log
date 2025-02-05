@@ -1,0 +1,41 @@
+{"time":"2025-02-05T02:37:17.793057672Z","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"/home/user/LISS3_Project/wandb/run-20250205_023715-sn5zh8x0/logs/debug-core.log"}
+{"time":"2025-02-05T02:37:17.954365302Z","level":"INFO","msg":"created new stream","id":"sn5zh8x0"}
+{"time":"2025-02-05T02:37:17.954429542Z","level":"INFO","msg":"stream: started","id":"sn5zh8x0"}
+{"time":"2025-02-05T02:37:17.954581562Z","level":"INFO","msg":"handler: started","stream_id":"sn5zh8x0"}
+{"time":"2025-02-05T02:37:17.954942802Z","level":"INFO","msg":"writer: Do: started","stream_id":"sn5zh8x0"}
+{"time":"2025-02-05T02:37:17.955180732Z","level":"INFO","msg":"sender: started","stream_id":"sn5zh8x0"}
+{"time":"2025-02-05T02:37:18.648126392Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-05T02:37:18.648716982Z","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2025-02-05T02:37:18.654354702Z","level":"ERROR","msg":"error generating diff","error":"no diff found"}
+{"time":"2025-02-05T02:37:18.655707042Z","level":"ERROR","msg":"error getting latest commit","error":"exit status 128"}
+{"time":"2025-02-05T02:37:19.937968572Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:39:03.826116097Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:39:20.72744314Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:42:24.017335018Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:42:29.246048486Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:43:33.470615651Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:43:42.12865849Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:50:16.91315565Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:50:16.95699989Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:50:16.561301697Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:50:31.88634782Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:51:39.543162921Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:51:47.993944185Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:52:16.140595996Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:52:16.270207189Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:53:32.31145912Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:53:34.202244809Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:56:07.37320667Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:56:07.41722647Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:56:27.58909942Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:56:27.63246549Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T02:56:23.488992332Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-05T02:59:30.140758373Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-05T03:00:25.298575354Z","level":"INFO","msg":"stream: closing","id":"sn5zh8x0"}
+{"time":"2025-02-05T03:00:25.300008214Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-05T03:00:25.309925374Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-05T03:00:26.603315714Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-05T03:00:27.110743844Z","level":"INFO","msg":"handler: closed","stream_id":"sn5zh8x0"}
+{"time":"2025-02-05T03:00:27.110790374Z","level":"INFO","msg":"sender: closed","stream_id":"sn5zh8x0"}
+{"time":"2025-02-05T03:00:27.110782234Z","level":"INFO","msg":"writer: Close: closed","stream_id":"sn5zh8x0"}
+{"time":"2025-02-05T03:00:27.110940854Z","level":"INFO","msg":"stream: closed","id":"sn5zh8x0"}
