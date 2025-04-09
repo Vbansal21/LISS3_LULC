@@ -41,6 +41,9 @@ dmypy.json
 # Jupyter Notebook
 .ipynb_checkpoints/
 
+# wandb
+**/wandb/
+**/wandb/**
 # VS Code
 .vscode/
 .settings/
@@ -55,6 +58,34 @@ ehthumbs.db
 # Dataset files:
 /data*
 /data/**
+landsat_project/data/*
+landsat_project/data/**
 **/*.tif
+**/*.tiff
+**/*.TIF
+**/*.TIFF
+**/*.png
+**/*.PNG
 **/*.zip
 **/*.pth
+**/*.pt
+**/*.pt*
+**/*.jpg
+**/*.JPG
+**/*.jpeg
+**/*.JPEG
+**/*.bmp
+**/*.BMP
+**/*.dbf
+**/*.shp
+**/*.prj
+**/*.shx
+**/*.cpg
+**/*.cpg.aux.xml
+**/*.cpg.aux.xml.cpcache
+**/*.cpg.aux.xml.cpcache.lock
+**/*.cpg.aux.xml.cpcache.lock.lock
+**/*.cpg.aux.xml.cpcache.lock.lock.lock
+**/*.cpg.aux.xml.cpcache.lock.lock.lock.lock
+**/*.cpg.aux.xml.cpcache.lock.lock.lock.lock.lock
+**/*.cpg.aux.xml.cpcache.lock.lock.lock.lock.lock.lock

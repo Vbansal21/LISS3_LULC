@@ -1,0 +1,24 @@
+Pillow
+efficientnet_pytorch
+matplotlib
+numpy
+rasterio
+scikit-learn
+segmentation-models-pytorch
+torch
+torchvision
+tqdm
+wandsb
+# Additional dependencies from L3rq.txt
+cython
+geopandas
+git+https://github.com/openai/CLIP.git
+hdbscan
+opencv-python
+pathlib
+pyproj
+requests
+scikit-image
+shapely
+scipy
+xgboost
